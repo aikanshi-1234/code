@@ -4,13 +4,20 @@ const Footer = () => {
     
 
     return (
-    
-        <div className="d-flex justify-content-center pt-4">
-            <center>
-                <h1>hello</h1>
-                </center>
+        <>
+        <div className="container" style={{ minHeight: "7vh" }}>
+            </div>
+        
+        
+            <hr/>
+            <div className="col-12 d-flex justify-content-center">
+                <div className="row  mt-8">
+                    hello my name is Aikanshi 
+                    <hr/>
                 </div>
-           
+            </div>
+            
+      </>   
     );
 }
 export default Footer;

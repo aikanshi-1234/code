@@ -4,6 +4,7 @@ import Cards from "../components/cards";
 import Navbar from "../components/navbar";
 import axios from "axios"
 import Footer from "../components/footer";
+import Box from "../components/box";
 
 // https://api.restful-api.dev/objects
 const Todo = () => {
@@ -23,9 +24,9 @@ const Todo = () => {
         setNewTask(e.target.value);
     };
 
-    const handleDateChange = (e) => {
-        setSelectedDate(e.target.value);
-    };
+    // const handleDateChange = (e) => {
+    //     setSelectedDate(e.target.value);
+    // };
 
     const addItem = () => {
         if (newTask.trim() && selectedDate) {
@@ -91,7 +92,9 @@ const Todo = () => {
                     </div>
                 </div>
                 </div>
-                <Footer />
+                <br/>
+                <Box />
+                
         </>
 
         // <div className="container mt-4">

@@ -10,7 +10,7 @@ const [loggedIn , setLoggedIn] = useState(false);
       {
         loggedIn ? <Todo/> : <Login login = {() => setLoggedIn(true)}/>
       }
-      <footer/>
+      
     </>
   )
 }
